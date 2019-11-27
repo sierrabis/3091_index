@@ -1,0 +1,66 @@
+body{
+	
+background:rgb(205, 130, 245);
+}
+
+h1 {
+	position: relative;
+ 	top:0px;
+	left:45px;
+	color:blue;
+	font-size:63px;
+	font-family: sans-serif;
+
+}
+
+h2 {
+	position: relative;
+ 	top:30px;
+	left:45px;
+	color:blue;
+	font-size:28px;
+	font-family: sans-serif;
+
+}
+
+h3 {
+	position: relative;
+ 	top:30px;
+	left:45px;
+	color:rgb(231, 201, 255);
+	font-size:40px;
+	font-family: sans-serif;
+
+}
+
+a {
+	color: rgb(2, 250, 209);
+}
+
+#manon{
+	position: relative;
+	top:40px;
+	left:45px;
+	height:300px;
+	width:580px;
+
+}
+
+h4 {
+	position: absolute;
+	width: 700px;
+ 	top:500px;
+	left:665px;
+	color:rgb(28, 120, 95);
+	font-size:25px;
+	font-family: sans-serif;
+
+}
+
+.giphy-embed{
+	position: relative;
+	top:10px;
+	left:15px;
+	height:120px;
+	width:280px;
+}
