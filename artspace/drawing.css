@@ -1,0 +1,16 @@
+* {
+	cursor:none;
+}
+
+body {
+	box-sizing: border-box;
+
+}
+
+#quarter-circle{
+	position: absolute;
+	height:35vh;
+	width:15vw;
+	top:65vh;
+	left:85vw;
+}

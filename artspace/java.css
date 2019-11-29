@@ -1,0 +1,208 @@
+* {
+	cursor:url("cursor.png"),auto;
+}
+
+html, body{
+	height:100vh;
+	padding:0;
+	margin: 0;
+}
+
+body {
+	box-sizing: border-box;
+
+}
+
+body.open img:not(#quarter-circle) {
+	display:none;
+
+}
+
+body.open #quarter-circle{
+	height:50vw;
+}
+
+#cursor{
+	position:absolute;
+	height:07vh;
+	width:04vw;
+	z-index:1000;
+	pointer-events: none;
+
+}
+
+#purple-swig{
+	position: absolute;
+	height:30vh;
+	width:13vw;
+	top:0vh;
+	left:87vw;
+}
+
+#blue-lines{
+	position: absolute;
+	height:16vh;
+	width:11vw;
+	top:16vh;
+	left:80vw;
+	transform-origin: 120% 50%;
+}
+
+#blue-lines:hover{
+	transform: rotate(-15deg);
+	transition:100ms;
+}
+
+#blue-space{
+	position: absolute;
+	height:42vh;
+	width:12vw;
+	top:58vh;
+	left:03vw;
+}
+
+#blue-shape{
+	position: absolute;
+	height:22vh;
+	width:08vw;
+	top:71vh;
+	left:02vw;
+	z-index:10;
+}
+
+#orange-shape{
+	position: absolute;
+	height:22vh;
+	width:08vw;
+	top:71vh;
+	left:02vw;
+	z-index:10;
+}
+#quarter-circle{
+	position: absolute;
+	height:35vh;
+	bottom:0;
+	right:0;
+	transition:500ms ease-out;
+	cursor: pointer;
+}
+
+body:not(.open) #quarter-circle:hover{
+	height: 38vh;
+}
+
+#details{
+	position: absolute;
+	height:25vh;
+	top:53vh;
+	left:13vw;
+}
+
+#green{
+	position: absolute;
+	transform:rotate(24deg);
+	transition:500ms
+	height:45vh;
+	width:46vw;
+	top:10vh;
+	left:0vw;
+}
+
+#orange-sun{
+	position: absolute;
+	height:23vh;
+	width:11vw;
+	top:11vh;
+	left:56vw;
+	z-index: 100
+}
+#orange-sun:hover {
+	animation: rotate 1s infinite linear;
+}
+
+#green-line{
+	position: absolute;
+	height:50vh;
+	width:22vw;
+	top:0vh;
+	left:48vw;
+
+}
+
+#purple-half{
+	position: absolute;
+	height:32vh;
+	width:16vw;
+	top:35vh;
+	left:68vw;
+
+}
+
+#purple-half:hover {
+	animation: rotate 3s, -32deg;
+}
+
+#purple-rectangle{
+	position: absolute;
+	transform:rotate(05deg);
+	height:41vh;
+	width:25vw;
+	top:18vh;
+	left:30vw;
+
+}
+
+#weird-sun{
+	position: absolute;
+	height:55vh;
+	width:25vw;
+	top:45vh;
+	left:40vw;
+
+}
+
+#blue-fan{
+	position: absolute;
+	height:11vh;
+	top:06vh;
+	left:40vw;
+	transition:100ms;
+}
+
+#blue-fan:hover{
+	height: 12vh;
+
+}
+
+#green-sloosh{
+	position: absolute;
+	width:200px;
+	top:69vh;
+	left:55vw;
+	z-index:10;
+	transition:500ms;
+
+}
+
+#green-sloosh:hover {
+	transform: rotate(-360deg);
+}
+
+.skewable{
+	transition:500ms;
+}
+
+}
+.twist{
+	transition:500ms;
+}
+
+
+@keyframes rotate {
+	from {
+		transform: rotate(0)
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
