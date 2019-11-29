@@ -1,35 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+
 body{
+	font-family: 'Roboto', sans-serif;
+	padding:45px;
+
 	
 background:rgb(205, 130, 245);
 }
 
+
+.wrapper {
+	max-width: 800px;
+}
+
 h1 {
-	position: relative;
- 	top:0px;
-	left:45px;
 	color:blue;
 	font-size:63px;
-	font-family: sans-serif;
+	
 
 }
 
 h2 {
-	position: relative;
- 	top:30px;
-	left:45px;
 	color:blue;
 	font-size:28px;
-	font-family: sans-serif;
+	
 
 }
 
 h3 {
-	position: relative;
- 	top:30px;
-	left:45px;
 	color:rgb(231, 201, 255);
 	font-size:40px;
-	font-family: sans-serif;
+	
 
 }
 
@@ -37,30 +38,32 @@ a {
 	color: rgb(2, 250, 209);
 }
 
-#manon{
-	position: relative;
-	top:40px;
-	left:45px;
-	height:300px;
-	width:580px;
-
-}
 
 h4 {
-	position: absolute;
-	width: 700px;
- 	top:500px;
-	left:665px;
 	color:rgb(28, 120, 95);
-	font-size:25px;
-	font-family: sans-serif;
+	font-size:20px;
+	margin-top: 0;
 
 }
 
-.giphy-embed{
-	position: relative;
-	top:10px;
-	left:15px;
-	height:120px;
-	width:280px;
+
+.container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 20px
+}
+.container div img{
+width:120px;
+}
+
+.container img {
+	width: 100%;
+}
+
+
+
+@media (max-width: 800px) {
+	.container {
+		grid-template-columns: 1fr;
+	}
 }
