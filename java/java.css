@@ -78,3 +78,8 @@ h3{
 	top:460px;
 	left:830px;
 }
+
+.skewable{
+	transform:skew(20deg, 10deg);
+	transition:500ms;
+}
