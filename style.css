@@ -62,31 +62,19 @@ h4 {
 
 }
 
-#me{
-	position: absolute;
-	height:200px;
-	width:300px;
-	top:570px;
-	left:900px;
-}
 
 #mee{
 	position: absolute;
-	height:150px;
-	width:250px;
-	top:400px;
-	left:1100px;
+	height:250px;
+	top:1100px;
+	left:55px;
 }
 
-
-    #moon {
-    top:900px;
-	left:1000px;
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      box-shadow: 15px 15px 0 0 blue;
-      position:relative;
+#me{
+	position: absolute;
+	height:250px;
+	top:1100px;
+	left:480px;
 }
 
 a{
