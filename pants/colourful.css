@@ -1,19 +1,39 @@
+.wrapper {
+	max-width: 800px;
+}
+
+h1 {
+	left:77px;
+	color:rgb(56, 198, 214);
+	font-size:68px;
+	font-family: sans-serif;
+
+}
+
+h2 {
+   color:rgb(56, 198, 214);
+   font-size:40px;
+   font-family: sans-serif;
+   width: 900px;
+
+}
+
 h3{
 font-family: Helvetica, Arial, sans-serif;
 width: 900px;
-font-size: 50px;
-color: rgb(252, 34, 5);
+font-size: 30px;
+color: rgb(143, 191, 48);
 
 }
 	p{
 	width: 900px;
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 25px;
+	font-size: 20px;
 	line-height: 29px;
 	font-style:bold;
 	font-weight: bold;
-	text-transform: lowercase;
-	text-align: justify;
+	text-transform: ;
+	text-align: ;
 }
 
 .bold {
@@ -21,17 +41,21 @@ color: rgb(252, 34, 5);
 }
 
 .blue {
-	color:blue;
+	color:rgb(56, 198, 214);
 }
 
-#red-pants {
+#green-pants {
 	position:absolute;
 	height:600px;
 	width:600px;
-	top:150px;
+	top:3450px;
 	left:840px
 }
 
 body{
-	background: rgb(149, 252, 5);
+	background: rgb(68, 68, 227);
+}
+
+a{
+	color:rgb(56, 198, 214);
 }
